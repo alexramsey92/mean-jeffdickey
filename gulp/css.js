@@ -9,6 +9,6 @@ gulp.task('css', function(){
 })
 
 gulp.task('watch:css', function(){
-  livereload.listen()
+  //livereload.listen()
   gulp.watch('css/**/*.styl', ['css'])
 })
